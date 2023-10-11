@@ -2,21 +2,3 @@
 @import "./layouts/header";
 @import "./layouts/main";
 @import "./layouts/footer";
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-@font-face {
-  font-family: inter;
-  src: url(../fonts/Inter-ExtraBold.ttf);
-}
-@font-face {
-  font-family: Merriweather;
-  src: url(../fonts/Merriweather-Light.ttf);
-}
-
-body {
-  background: red;
-}

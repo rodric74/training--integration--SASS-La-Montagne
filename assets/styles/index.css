@@ -355,4 +355,51 @@ footer form .submit-container .btn {
 }
 footer .info-contact {
   border-left: 1px solid rgb(209, 209, 209);
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+footer .info-contact div {
+  border-bottom: 1px solid rgb(209, 209, 209);
+  display: grid;
+  grid-template-columns: 30% 70%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .info-contact div h3 {
+  font-family: interBold, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  padding-left: 40px;
+  text-align: left;
+  color: rgb(105, 105, 105);
+}
+footer .info-contact div p {
+  text-align: left;
+  font-size: 0.8rem;
+  line-height: 25px;
+  color: grey;
+}
+footer .info-contact .social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .info-contact .social ul li {
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 150px;
+  width: 40px;
+  height: 40px;
+  font-size: 0.9rem;
+  margin-right: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }/*# sourceMappingURL=index.css.map */

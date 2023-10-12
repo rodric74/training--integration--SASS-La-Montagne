@@ -27,7 +27,7 @@ a:visited {
 }
 
 body {
-  background: url(/assets/images/bg.jpg) fixed center/cover;
+  background: url(../images/bg.jpg) fixed center/cover;
   text-align: center;
   font-family: Merriweather, sans-serif;
   max-width: 1300px;
